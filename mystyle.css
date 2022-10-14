@@ -1,0 +1,10 @@
+/*changes color of header*/
+.header,
+a
+{
+    color:rgb(235, 164, 52);
+}
+
+#title{
+    color:#3a302f
+}
