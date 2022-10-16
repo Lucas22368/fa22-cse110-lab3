@@ -5,6 +5,102 @@ a
     color:rgb(235, 164, 52);
 }
 
+/*subtly changes title color*/
 #title{
-    color:#3a302f
+    color:#3a302f;
+}
+/*changes the color and spacing of the attendance elements*/
+form>div{
+    color:hsl(241, 100%, 50%);
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 1Q;
+    margin-right: 0px;
+}
+/*changes the time elements*/
+details{
+    color:gray;
+    margin:auto;
+}
+/*changes the date element*/
+b span{
+    color:gray
+}
+/*changes the date title element*/
+h3 + div{
+    color:gray
+}
+/*changes the meeting location and where element*/
+#MeetingLocation{
+    color:gray;
+}
+/*gives a border around the details of when and where*/
+#Whereandwhen{
+    margin: 10px;
+    border-color: orange;
+    padding:1%;
+    border-width: 1%;
+    border-style:solid;
+}
+/*Gives a border and grids the images section*/
+#images{
+    display: grid;
+    border: 1% solid blue;
+    padding:1mm;
+    margin:1cm
+}
+/*changes the background color of the text box*/
+#textbox{
+    background-color: orange;
+}
+/*changes the new business text*/
+#Business{
+    text-align: left;
+    text-decoration: none;
+}
+/*when button is hovered text turns gold*/
+button[class="commentbutton"]:hover{
+    color:gold;
+}
+/*when  button is clicked button turns blue*/
+button[class="commentbutton"]:active{
+    background-color:blue;
+}
+/*aligns the choices of languages*/
+#langchoices{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+/*queries the images to be at most 500 px as well as stretches them to fit grid*/
+@media (max-width:500px){
+    [alt="meetingpicture1"]{
+        align-self: stretch;
+        
+    }
+}
+
+@media (max-width: 500px){
+    [alt="meetingpicture1"]{
+        align-self: stretch;
+    }
+}
+/*sets varying fonts of different texts*/
+p{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+div{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+a{
+    font-family: Arial, Helvetica, sans-serif;
 }
