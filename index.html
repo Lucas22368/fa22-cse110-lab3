@@ -4,7 +4,7 @@
     <title>Group 7's Meeting Minutes</title>
     <meta charset="UTF-8">
     <link rel="icon" href="images/clipart4776661.png">
-    <link rel="stylesheet" href="mystyle.css"
+    <link rel="stylesheet" href="mystyle.css">
   </head>
   <body>
     <div class="header">Group 6</div>
@@ -22,22 +22,20 @@
       </ul>
     </nav>
     <h1>Group's Meeting Minutes</h1>
-    <section>
+    <section id="Whereandwhen">
       <h3 id="MeetingLocation">Meeting Location</h3>
       <div>Giesel Library</div>
-    </section>
-      <h3 id="Date">Date</h3>
-      <b><span>October 9th 2022</span></b>
+      <h3 id="Date" style="color:grey">Date</h3>
+      <b><span style="display:block">October 9th 2022</span></b>
       <details>
         <summary>Start Time</summary>
         5:07 PM
-        <strong>sd</strong>
-        <b>sd</b>
       </details>
       <details>
         <summary>End Time</summary>
-        5:08 PM
+        5:08 PM 
       </details>
+    </section>
     <section>
       <h3 id="Attendance">Attendance</h3> 
       <input type="checkbox"> 
@@ -76,14 +74,14 @@
       </section>
       <section> 
         <h2 id="UnfinishedBusiness">Unfinished Business</h2>
-        <p>The team leader has not been decided while Lucas is the most qualified Bob has more people skills</p>
+        <p>The <strong>team  leader</strong> has not been decided while Lucas is the most qualified Bob has more people skills</p>
         <hr>
         <p>The idea of <em>two team leaders</em> has been brought up vote for who you think should be leader</p>
         <input list="leaders">
         <form>
           <datalist id="leaders">
             <option value="Lucas"></option>
-            <option value="Bob"></option>
+            <option value="Bob" ></option>
             <option value="Rob"></option>
             <option value="Greg"></option>
             <option value="Stewart"></option>
@@ -112,13 +110,13 @@
       </section>
       <section> 
         <h2 id="NewBusiness">New Business</h2>
-        <p>The coding languages need to be decided. <br>
+        <p id="Business">The coding languages need to be decided. <br>
         Python has been an increasingly popular <br>
         language among the group but we also have <br> 
         the languages that are part of <i>C</i> such as C and C++
         </p>
         <fieldset>
-          <form>
+          <form id="langchoices">
             <input type="radio" id="python" name="language" value="python" >
              Python
             <input type="radio" id="C" name="language" value="C">
@@ -131,17 +129,18 @@
       <section> 
         <h2 id="Comments">Comments</h2>
         <form>
-          <input type="text">
-          <button>
+          <input type="text" id="te">
+          <button class="commentbutton">
             submit your comments
           </button>
+          <div style="display:none">hidden</div>
         </form>
         </section>
-      <section>
+      <section id="images"> 
         <h2 id="Pictures">Pictures</h2> 
+      <img alt="meetingpicture1" src="images/imageone.jpg">
+      <img alt="meetingpicture2" src="images/imagetwo.jpg">
       </section>
-      <img alt="meeting picture 1" src="images/imageone.jpg">
-      <img alt="meeting picture 2" src="images/imagetwo.jpg">
       <section>
         <h2 id="Recording">Recording</h2>
         <div>Meeting Recording</div>
